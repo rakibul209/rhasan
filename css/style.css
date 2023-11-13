@@ -1,0 +1,130 @@
+/*  coustom css code */
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Saira+Semi+Condensed:wght@500;600;700&display=swap');
+
+/*  header section  */
+
+.header-bg-custom{
+    background: #07142E;
+}
+
+.customNav li a.active{
+    color: #FFC600 !important;
+}
+
+.customNav li{
+    padding: 0px 10px;
+}
+
+.navbar-toggler-icon{
+    color: FFF !important;
+}
+
+/*  hero section  */
+
+.hero-wrapper{
+    background: linear-gradient(109deg, #2d3d60, #0b1834);
+}
+
+.rt-hero h2{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 116px;
+    line-height: 139px;
+    font-weight: 700;
+    
+}
+
+.rt-hero h2:nth-child(1){
+    color: #00EDF5;
+}
+
+
+.s-hero{
+    color: #4E638D;
+}
+.t-hero{
+    color: #fff;
+}
+
+.hero-btn{
+    background: #ffc600;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid #FFC600;
+    
+}
+
+.hero-btn:hover {
+    color: #FFC600;
+    border: 2px solid #FFC600;
+}
+
+
+
+/*     about section    */
+
+.about-us{
+    background: #00EDF5;
+    
+}
+
+.s-about{
+    text-align: left;
+    font-size: 60px;
+}
+
+
+
+/*     Features section      */
+
+.features{
+    background: #ECF4F4;
+}
+
+.s-features{
+    font-size: 60px;
+}
+
+.one {
+    color: #FFC600;
+    font-size: 120px;
+    
+}
+
+
+/*---- contact-----*/
+
+.contact-heading{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+
+
+
+
+
+/* media query code for mobile device <768 */
+
+@media(max-width:767px){
+
+    .rt-hero{
+        text-align: center;
+    }
+    .rt-hero h2 {
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .rt-hero h2:f-hero{
+        padding-top: 40px;
+    }
+    .rt-hero h2:nth-child(1){
+        padding-top: 40px;
+    }
+}
+
+
+
+
